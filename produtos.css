@@ -1,0 +1,60 @@
+.navbar {
+    border-radius: 0; 
+    box-shadow: 5px 3px 5px #1f3a93; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+}
+
+.nav-link {
+    color: #fff !important; 
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #1f3a93; 
+}
+
+.dropdown-menu {
+    background-color: #1f3a93; 
+}
+
+.dropdown-item {
+    color: #fff !important; 
+}
+
+.dropdown-item:hover {
+    color: #1f3a93 !important; 
+    background-color: #fff; 
+}
+.botão{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 50vh;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 1000px;
+    color: black;
+    transition: all 0.6s
+    ease-in-out 0s;
+    box-shadow: inset 0 0 2px #1f3a93;
+}
+.btn:hover{
+    background: transparent;
+    color: aqua;
+    transform: scale(1.5) rotate(360deg);
+    box-shadow: 0 0 60px rgb(163, 15, 15);
+    border: 2px solid;
+    cursor: grab;
+}
