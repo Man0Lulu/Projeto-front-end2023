@@ -27,11 +27,6 @@
 .dropdown-item {
     color: #fff !important; 
 }
-
-.dropdown-item:hover {
-    color: #1f3a93 !important; 
-    background-color: #fff; 
-}
 .navbar {
     border-radius: 0; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -62,7 +57,3 @@
     color: #fff !important; 
 }
 
-.dropdown-item:hover {
-    color: #1f3a93 !important; 
-    background-color: #fff; 
-}
