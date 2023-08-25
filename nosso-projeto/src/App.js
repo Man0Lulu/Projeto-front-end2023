@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Cabecalho from './components/Cabecalho';
+import Botao from './components/Botao';
 
 function App() {
   
   return (
     <div className="App">
-      <Cabecalho/>
+        <Botao/>
+      <Botao/>
       
     </div>
   );
