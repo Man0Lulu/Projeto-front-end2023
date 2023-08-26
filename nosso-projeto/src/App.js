@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Botao from './components/Botao';
+import Navbar from './components/Navbar';
 
 function App() {
   
   return (
     <div className="App">
         <Botao/>
-      <Botao/>
+        <Navbar/>
       
     </div>
   );
